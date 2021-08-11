@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+
+<!-- Mirrored from radixtouch.in/templates/admin/hotel/source/layouts_form.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Apr 2018 16:51:59 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Consulta</title>
+	<!--bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<!-- END HEAD -->
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white">
+    <div class="page-wrapper">
+        <div class="page-container">
+            <div class="page-content">
+                <div class="page-content">
+                    
+                   
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="card card-box">
+                                <div class="card-head">
+                                    <header>Busqueda de Madroños</header>
+                                </div>
+                                <div class="card-body" id="bar-parent2">
+                                	<div class="row">
+	                                    <div class="col-md-6 col-sm-6">
+	                                        <!-- text input de estados -->
+	                                       <div class="form-group" >
+                                                <label>Selecciona Estado</label>
+                                                <select class="form-control" id="estadosinput">
+                                                        <option id="ags" value =1>Aguascalientes</option>
+                                                        <option id="bajaCalifornia"  value =2>Baja California</option>
+                                                        <option id="bajaCaliforniaSur"  value =3>Baja California Sur</option>
+                                                        <option id="campeche" value =4>Campeche</option>
+                                                        <option id="chiapas" value =5>Chiapas</option>
+                                                        <option id="chihuahua" value =6>Chihuahua</option>
+                                                        <option id="cdmx" value =7>Ciudad de México</option>
+                                                        <option id="coahuila" value =8>Coahuila</option>
+                                                        <option id="colima" value =9>Colima</option>
+                                                        <option id="durango" value =10>Durango</option>
+                                                        <option id="estado0deMexico" value =11>Estado de México</option>
+                                                        <option id="guanajuato" value =12>Guanajuato</option>
+                                                        <option id="guerrero" value =13>Guerrero</option>
+                                                        <option id="hidalgo" value =14>Hidalgo</option>
+                                                        <option id="jalisco" value =15>Jalisco</option>
+                                                        <option id="michoacán" value =16>Michoacán</option>
+                                                        <option id="morelos" value =17>Morelos</option>
+                                                        <option id="nayarit" value =18>Nayarit</option>
+                                                        <option id="nuevoLeon" value =19>Nuevo León</option>
+                                                        <option id="oaxaca" value =20>Oaxaca</option>
+                                                        <option id="puebla" value =21>Puebla</option>
+                                                        <option id="queretaro" value =22>Querétaro</option>
+                                                        <option id="quintanaRoo" value =23>Quintana Roo</option>
+                                                        <option id="sanLuisPotosi" value =24>San Luis Potosí</option>
+                                                        <option id="sinaloa" value =25>Sinaloa</option>
+                                                        <option id="sonora" value =26>Sonora</option>
+                                                        <option id="tabasco"  value =27>Tabasco</option>
+                                                        <option id="tamaulipas" value =28>Tamaulipas</option>
+                                                        <option id="tlaxcala" value =29>Tlaxcala</option>
+                                                        <option id="veracruz" value =30>Veracruz</option>
+                                                        <option id="yucatán" value =31>Yucatán</option>
+                                                        <option id="zacatecas"value =32>Zacatecas</option>
+                                                </select>
+                                            </div>
+	                                        <!-- radio de hábito -->
+	                                        <div class="form-group">
+                                                <label>Habito</label>
+	                                            <div class="radio p-0">
+	                                                <input type="radio" name="optionsRadios" id="hab1"  checked>
+	                                                <label for="optionsRadios1">
+	                                                    Arbol
+	                                                </label>
+	                                            </div>
+	                                            <div class="radio p-0">
+	                                                <input type="radio" name="optionsRadios" id="hab2">
+	                                                <label for="optionsRadios2">
+	                                                    Arbusto, Colonian o manchones
+	                                                </label>
+	                                            </div>
+	                                        </div>
+                                            
+
+	                                    </div>
+	                                    <div class="col-md-6 col-sm-6">
+                                        <!-- radio de hojas, envés (vello) -->
+                                      <div class="form-group">
+                                                <label>Hojas, Envés</label>
+                                                <div class="radio p-0">
+                                                    <input type="radio" name="optionsRadios7" id="hoen1" value="option1" checked>
+                                                    <label for="optionsRadios12">
+                                                        Glabro (Sin pelos), la superficie verde es visible
+                                                    </label>
+                                                </div>
+                                                <div class="radio p-0">
+                                                    <input type="radio" name="optionsRadios7" id="hoen2" value="option2">
+                                                    <label for="optionsRadios13">
+                                                        Con pubesencia espaciada, la superficie verde muy visible
+                                                    </label>
+                                                </div>
+                                                <div class="radio p-0">
+                                                    <input type="radio" name="optionsRadios7" id="hoen3" value="option2">
+                                                    <label for="optionsRadios14">
+                                                        Con pubesencia densa pero la superficie verde es visible
+                                                    </label>
+                                                </div>
+                                                <div class="radio p-0">
+                                                    <input type="radio" name="optionsRadios7" id="hoen4" value="option2">
+                                                    <label for="optionsRadios15">
+                                                        Con pubesencia densa que oculta totalmente lo verde del envés
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- radio de Flores-->
+                                        <div class="form-group">
+                                                <label>Flores</label>
+                                                <div class="radio p-0">
+                                                    <input type="radio" name="optionsRadios6" id="flor1" value="option1" checked>
+                                                    <label for="optionsRadios16">
+                                                        Blancas a amarillentas o verdosas
+                                                    </label>
+                                                </div>
+                                                <div class="radio p-0">
+                                                    <input type="radio" name="optionsRadios6" id="flor2" value="option2">
+                                                    <label for="optionsRadios17">
+                                                        Rosas o blancas con tintes rosas o rojizos (bicolor mollis, occidentalis)
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary" onclick="consulta()">Buscar</button>
+                                    </div>
+                                    </div>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end page content -->
+            <!-- start chat sidebar -->
+            
+            <!-- end chat sidebar -->
+        </div>
+        <!-- end page container -->
+        <!-- start footer -->
+        
+        <!-- end footer -->
+    </div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script></body>
+
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
