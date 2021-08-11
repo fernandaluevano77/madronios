@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 19rem);
+    justify-content: center;
+    color: var(--clr-gray);
+  }
+  
+  .containerGrid {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border-radius: 2rem;
+    position: relative;
+    margin: 0.5rem;
+  }
