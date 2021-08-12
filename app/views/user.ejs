@@ -166,7 +166,7 @@
                                         </div>
                                         <div class="size">
                                             <a class="h3">Peciolos:</a>
-                                            <a class="spant"> ${info.fichas[i].pecioloes} </a>
+                                            <a class="spant"> ${info.fichas[i].peciolos} </a>
                                         </div>
                                         <div class="size">
                                             <a class="h3">Hojas:</a>
@@ -236,7 +236,7 @@
                                 + '</div>'
                                 + '<div class="size">'
                                     + '<a class="h3">Peciolos:' + '</a>'
-                                    +  '<a class="spant">' + info.fichas[i].pecioloes + '</a>'
+                                    +  '<a class="spant">' + info.fichas[i].peciolos + '</a>'
                                 + '</div>'
                                 + '<div class="size">'
                                     + '<a class="h3">Hojas:' + '</a>'
@@ -508,28 +508,32 @@
                     .then(function contenido(info){//info resive la respuesta de response
                     console.log(info);//imprime el objeto de fichas
                     
-                    var l_f_flor = f_flor.length;
+                    var max = f_flor.length;
 
+                    let min = 0;
+                    
 
-                    var pos;
-                    for ( var r=0; r<=l_f_flor;r++){
-                        console.log(f_flor[r].especie);
-                        pos = (f_flor[r].especie);
+                    /* var pos;
+                    for ( var r=0; r<=max;r++){
+                        console.log(f_flor[0].especie);
+                        var pos =  Math.floor(Math.random()*31)
+                        console.log(pos);
                     var resConsulta  = info.fichas.filter(function(elemento){
                     //elemento se refiere al registro
                     return (elemento.numero==pos);
                     });
-                    }
+                    } */
                     
-                    console.log("uwu"+resConsulta);
+                    var resConsulta = Math.floor(Math.random()*3);
 
                     var divGaler = document.getElementById('SeccionC').innerHTML = `<div class="wrapper-grid" id="resultadoC"></div>`;
                     
-                    var Nmadron = info.fichas;//guarda en Nmadron el array fichas.
+                    //var Nmadron = resConsulta;//guarda en Nmadron el array fichas.
                     //For Hace el recorrido por cada una de las casillas del array
                     
 
-                    for(var i = 0; i <= Nmadron.length; i++){
+                    for(var i = 0; i <= resConsulta; i++){
+                        var r = Math.floor(Math.random()*31);
                     var galeria = document.getElementById('resultadoC').innerHTML += 
                     
                     '<div class="containerGrid">'
@@ -537,39 +541,39 @@
                     + '<div class="containerC">'
                         + '<div class="card">'
                         +   '<div class="imgBx">'
-                            +   '<img src="img/'+info.fichas[i].numero+'.png" width="100%" height="100%">'
+                            +   '<img src="img/'+info.fichas[r].numero+'.png" width="100%" height="100%">'
                             + '</div>'
                             + '<div class="contentBx">'
                                 + '<div class="gradient">' + '</div>'
-                                + '<a class="h2">' + info.fichas[i].nombre +'</a>'
+                                + '<a class="h2">' + info.fichas[r].nombre +'</a>'
                                     + '<div class="scroll">'
                                     +    '<div class="size">'
                                         +  '<a class="h3">Habito:' + '</a>'
-                                            + '<a class="spant">' + info.fichas[i].habito + '</a>'
+                                            + '<a class="spant">' + info.fichas[r].habito + '</a>'
                                         + '</div>'
                                         + '<div class="size">'
                                             + '<a class="h3">Corteza de la Rama:' + '</a>'
-                                            + '<a class="spant">' + info.fichas[i].corteza_ramas + '</a>'
+                                            + '<a class="spant">' + info.fichas[r].corteza_ramas + '</a>'
                                         + '</div>'
                                         + '<div class="size">'
                                             + '<a class="h3">Peciolos:' + '</a>'
-                                            +  '<a class="spant">' + info.fichas[i].peciolos + '</a>'
+                                            +  '<a class="spant">' + info.fichas[r].peciolos + '</a>'
                                         + '</div>'
                                         + '<div class="size">'
                                             + '<a class="h3">Hojas:' + '</a>'
-                                            + '<a class="spant">' + info.fichas[i].hojas + '</a>'
+                                            + '<a class="spant">' + info.fichas[r].hojas + '</a>'
                                         + '</div>'
                                         +'<div class="size">'
                                             + '<a class="h3">Haz:' + '</a>'
-                                            + '<a class="spant">' + info.fichas[i].haz + '</a>'
+                                            + '<a class="spant">' + info.fichas[r].haz + '</a>'
                                         + '</div>'
                                         + '<div class="size">'
                                             + '<a class="h3">Enves:' + '</a>'
-                                            + '<a class="spant">' + info.fichas[i].enves + '</a>'
+                                            + '<a class="spant">' + info.fichas[r].enves + '</a>'
                                         + '</div>'
                                         + '<div class="size">'
                                             +  '<a class="h3">Flores:' + '</a>'
-                                            + '<a class="spant">' + info.fichas[i].flores + '</a>'
+                                            + '<a class="spant">' + info.fichas[r].flores + '</a>'
                                         + '</div>'
                                         + '<!--<div href="#" class="buttonColor ptxt cta" id="cta">Detalles' + '</div>-->'
                                     + '</div>'
