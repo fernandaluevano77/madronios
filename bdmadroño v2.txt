@@ -1,0 +1,93 @@
+use madroños
+db.clasificacions.insert ({"especie": 1,"estados": [1, 6, 7, 8,10, 11, 12, 15, 16, 18, 19, 22, 24, 25, 26, 32],"habito": 1,"color_flor": 1,"vello_hojas": 1})
+db.clasificacions.insert ({"especie": 2,"estados": [6,10,15,26],"habito": 1,"Color_flor": 1,"vello_hojas": 1})
+db.clasificacions.insert ({"especie": 3,"estados": [6, 7, 10, 11, 12, 14, 15, 16, 17, 21, 22, 24, 29, 30, 32],"habito": 1,"color_flor": 2,"vello_hojas": 4})
+db.clasificacions.insert ({"especie": 4,"estados": [1, 10, 15, 18, 25, 26, 32],"habito": 1,"color_flor": 1,"vello_hojas": 2})
+db.clasificacions.insert ({"especie": 5,"estados": [1, 6, 7, 10, 11, 12, 13, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 32],"habito":[1, 2],"color_flor": 2,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 6,"estados": [1, 6, 10, 15, 18, 25, 32],"habito": 2,"color_flor": 2,"vello_hojas": 1})
+db.clasificacions.insert ({"especie": 7,"estados": 3,"habito": 1,"color_flor": 1,"vello_hojas": 2})
+db.clasificacions.insert ({"especie": 8,"estados": [1, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 24, 25, 26, 29, 30, 32],"habito": 1,"color_flor": 1,"vello_hojas": 2})
+db.clasificacions.insert ({"especie": 9,"estados": [1, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32],"habito": 1,"color_flor": 1,"vello_hojas": 1})
+db.clasificacions.insert ({"especie": 10,"estados": [5, 6, 7, 10, 11, 13, 14, 15, 16, 17, 20, 21, 22, 24, 29, 30],"habito": 1,"color_flor": 1,"vello_hojas": 2})
+db.clasificacions.insert ({"especie": 11,"estados": [6, 8, 12, 14, 19, 22, 24, 26, 28],"habito": 1,"color_flor":[1, 2],"vello_hojas": [1, 2, 3]})
+db.clasificacions.insert ({"especie": 12,"estados": [10, 25],"habito": 1,"color_flor": 1,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 13,"estados": [5, 11, 13, 14, 15, 16, 20, 21, 22, 24, 28, 30],"habito": [1,2],"color_flor": 1,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 14,"estados": [5, 20, 21, 30],"habito": 2,"color_flor": 1,"vello_hojas": [1, 2 ]})
+db.clasificacions.insert ({"especie": 15,"estados": [6, 8,],"habito": 2,"color_flor": 1,"vello_hojas": [1, 2]})
+db.clasificacions.insert ({"especie": 16,"estados": [10, 15, 32],"habito": 2,"color_flor": 2,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 17,"estados": [7, 11, 13, 14, 15, 16, 17, 20, 29, 30],"habito": [1,2],"color_flor": 1,"vello_hojas":1})
+db.clasificacions.insert ({"especie": 18,"estados": 15,"habito": 2,"color_flor": 1,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 19,"estados": [9, 15, 16],"habito": [1, 2],"color_flor": 1,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 20,"estados": 2, "habito": [1, 2],"color_flor": 1,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 21,"estados": [20, 21],"habito": 2,"color_flor": 1,"vello_hojas": 3})
+db.clasificacions.insert ({"especie": 22,"estados": [1, 6, 10, 11, 12, 13, 15, 16, 17, 18, 20, 21, 22, 24, 25, 32],"habito": [1, 2],"color_flor": 2,"vello_hojas": [1, 2]})
+db.clasificacions.insert ({"especie": 23,"estados": [10, 15],"habito": 2,"color_flor": 2,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 24,"estados": [10, 15, 32],"habito": 2,"color_flor": 1,"vello_hojas": 1})
+db.clasificacions.insert ({"especie": 25,"estados": [24, 28],"habito": 2,"color_flor": [1,2],"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 26,"estados": [11, 13, 15, 16],"habito":[1, 2],"color_flor": 1,"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 27,"estados": 15,"habito": 2,"color_flor": 1,"vello_hojas":1})
+db.clasificacions.insert ({"especie": 28,"estados": [12, 14, 22, 24],"habito": [1,2],"color_flor": [1, 2],"vello_hojas": [2, 3]})
+db.clasificacions.insert ({"especie": 29,"estados": [1, 6, 7, 10, 11, 12, 15, 16, 18, 20, 21, 22, 24, 26, 29, 30, 32],"habito":[1, 2],"color_flor": 1,"vello_hojas": [1, 2, 3]})
+db.clasificacions.insert ({"especie": 30,"estados": [12, 19, 24, 28],"habito":2,"color_flor": 1,"vello_hojas": [1, 2]})
+db.clasificacions.insert ({"especie": 31,"estados": 28,"habito":2,"color_flor": 2,"vello_hojas": [2, 3]})
+
+db.fichas.insert({"numero":1,"nombre": "Arbutus arizonica","habito":"árbol","corteza_ramas":"exfoliante en laminillas o persistente delgada, de color rojo onaranja","peciolos":"Glabros(lisos), rojos", "hojas":"Glabras (lisas), ovado lanceoladas, 3-9 cm largo, 1-6 cm ancho, herbáceas, color verde olivo","haz":"Glabro(liso)","enves":"Glabro","flores":"Blancas a verdosas o amarillentas"})
+
+db.fichas.insert({"numero":2,"nombre": "Arbutus cf. arizonica","habito":"árbol","corteza_ramas":"exfoliante en láminas o persistente, de color rojo o naranja, la interior crema o blanquecina","peciolos":"Glabros(lisos), rojos", "hojas":"Glabras (lisas), ovado lanceoladas, 3-9 cm largo, 1-6 cm ancho, herbáceas, color verde olivo","haz":"Glabro(liso)","enves":"Glabro","flores":"Blancas a verdosas o amarillentas"})
+
+db.fichas.insert({"numero":3,"nombre": "Arbutus bicolor","habito":"árbol","corteza_ramas":"lisa, la exterior exfoliada","peciolos":"con muchos pelos glandulares cortos, evidentes", "hojas":"ovadas, 6-14 cm largo, 4-9.5 cm ancho, subcoriáceas, acorazonadas o truncadas en la base, bicolores, el haz y el envés contrastantes","haz":"finamente pubescente, verde oscuro, algo opaco","enves":"con pubescencia dense que cubre totalmente el envés, a veces con manchas negras (hongos)","flores":"rosas o blancas con tinte rosa"})
+
+db.fichas.insert({"numero":4,"nombre": "Arbutus madrensis","habito":"árbol","corteza_ramas":"persistente(con cáscara), gris","peciolos":"con pubescencia corta, sin pelos glandulares", "hojas":"ampliamente ovadas, 8-15cm largo, 6-9 cm ancho, subcoriáceas, color verde, rojas en temporada de secas","haz":"glabro (liso), lustroso, puede tener pubescencia en la nervadura central","enves":"con pubescencia espaciada color marron, más en la nervadura central","flores":"verdosas o blanco verdosas"})
+
+db.fichas.insert({"numero":5,"nombre": "Arbutus mollis","habito":"Arbustos usualmente formando manchones, rara vez arbolitos hasta de 2.5 m","corteza_ramas":"exfoliante (lisa)","peciolos":"color rosado, con pubescencia", "hojas":"oblongas a ovadas, 3-8.5 cm largo, 1.5-4 ancho, subcoriáceas a coriáceas","haz":"finamente pubescente, opaco","enves":"densamente pubescente al menos sobre la parte media","flores":"blanquecinas a rosadas con tinte rojo"})
+
+db.fichas.insert({"numero":6,"nombre": "Arbutus occidentalis","habito":"arbusto, postrado, colonial","corteza_ramas":"lisa o persistente, pero delgada","peciolos":"glabros(lisos), usualmente de color rojo a púrpura", "hojas":"glabras (lisas), ovadas a elípticas, 2.5-5 cm largo, 1-2.6 cm ancho, subcoriáceas","haz":"glabro (liso), lustroso","enves":"glabro (liso)","flores":"rosas, rojizas o blancas con tintes rojos"})
+
+db.fichas.insert({"numero":7,"nombre": "Arbutus peninsularis","habito":"árbol","corteza_ramas":"exfoliante en láminas, la interna lisa","peciolos":"con pelos cortos no glandulares", "hojas":"ovadas, 5-11 cmm largo, subcoriáceas","haz":"glabro (liso), verde claro","enves":"con pelos algo enmarañados","flores":"amarillentas o cremosas"})
+
+db.fichas.insert({"numero":8,"nombre": "Arbutus tessellata","habito":"árbol","corteza_ramas":"persistente, leñosa (con cáscara)","peciolos":"rosas, con pelos glandulares largos 1-8mm", "hojas":"ovadas, a elípticas, 2-11 cm largo, 1.4-5.5 cm ancho, herbáceas a subcoriáceas, verde claro","haz":"glabro o con escasa pubescencia, verde claro","enves":"con pelos glandulares, principalmente en la cervadura central","flores":"blancas o amarillentas"})
+
+db.fichas.insert({"numero":9,"nombre": "Arbutus xalapensis var. xalapensis","habito":"árbol","corteza_ramas":"exfoliante en láminas, corteza interior lisa","peciolos":"con pelos grises, marrones o rojizos", "hojas":"ovadas, elípticas u oblongas, 7-15 cm largo, 3-9 cm ancho, herbáceas","haz":"glabro o casi glabro, verde claro, lustroso","enves":"envés con pelos rojizos o largos, sobre todo a lo largo de la nervadura","flores":"blancas, cremas, amarillentas a verdosas"})
+
+db.fichas.insert({"numero":10,"nombre": "Arbutus xalapensis f. alba","habito":"árbol","corteza_ramas":"exfoliante en láminas, corteza interior lisa","peciolos":"con pocos pelos cortos, blanquecinos, a veces pequeños pelos glandulares", "hojas":"ovadas a elípticas, 6-14 cm largo, 3-6.4 cm ancho, herbáceas","haz":"verde claro, lustroso","enves":"envés con muchos pelos blanquecinos cortos, dejan ver la superficie","flores":"blancas a verdosas"})
+
+db.fichas.insert({"numero":11,"nombre": "Arbutus xalapensis f. glandulosa","habito":"árbol","corteza_ramas":"exfoliante en láminas, corteza interior lisa","peciolos":"con glandulares cortos pero evidentes", "hojas":"ovadas a oblongas, 7-15 cm largo, 3-9 cm ancho, herbáceas","haz":"glabro o con pubescencia corta, verde claro","enves":"con pelos rojizos y pelos glandulares cortos pero evidentes","flores":"blancas, cremas o amarillentas"})
+
+db.fichas.insert({"numero":12,"nombre": "Arbutus xalapensis var. texana","habito":"árbol","corteza_ramas":"exfoliante en láminas, corteza interior lisa, a veces guinda, cerosa","peciolos":"glabros (lisos) o con pelos muy cortos", "hojas":"subcoriáceas a coriáceas (algo gruesas), de 3-5.4 cm largo, 2.6-4.1 cm ancho, ovadas, algo colgantes","haz":"glabro (liso) o con pocos pelos cortos, verde obscuro","enves":"glabro (liso) o con pelos cortos, verde obscuro","flores":"blancas o rosas"})
+
+
+db.fichas.insert({"numero":13,"nombre": "camarostaphylis arbutoides","habito":"arbusto o árbol","corteza_ramas":"pubescentes y usualmente con pelos glandulares","peciolos":"pubescentes y usualmente con pelos glandulares", "hojas":"4.5 a 13 cm de largo, 1.8 a 4.6 cm ancho, margen: entero a poco ondulado o con dientes espaciados hacia el ápice","haz":"casi glabro o algo pubescente","enves":"con pubescencia espaciada a densa","flores":"blancas a verdosas o amarillentas, inflorescencia: pubescente, con frecuencia con pelos glandulares"})
+
+db.fichas.insert({"numero":14,"nombre": "camarostaphylis arguta","habito":"arbusto","corteza_ramas":"pubescentes o glabras","peciolos":"pubescentes o glabras", "hojas":"2 a 8 cm de largo, 0.8 a 3.7 cm de ancho, margen: plano, aserrado","haz":"algo pubescente o glabro","enves":"pubescente o glabro","flores":"blancas, blanco-verdosas, blanco-rojizas o rosas, inflorescencia: pubescente o glabra (rara vez glandular)"})
+
+db.fichas.insert({"numero":15,"nombre": "camarostaphylis coahuilensis","habito":"arbusto","corteza_ramas":"pubescentes","peciolos":"pubescentes", "hojas":"2 a 5.5 cm de largo, 0.8 a 1.9 cm de ancho, planas o dobladas a la mitad, margen: entero, casi plano","haz":"espaciadamente pubescente o glabro","enves":"pubescente","flores":"de color rosa, inflorescencia: pubescente y con pelos glandulares"})
+
+db.fichas.insert({"numero":17,"nombre": "camarostaphylis diggsii","habito":"arbusto","corteza_ramas":"con pelos glandulares","peciolos":"con pelos glandulares", "hojas":"3 a 7.2 cm de largo, 0.7 a 1.5 cm de ancho, margen: entero o con dientes espaciados hacia el ápice","haz":"pubescente","enves":"con pubescencia densa","flores":"rosa intenso a magenta, inflorescencia: con pelos glandulares"})
+
+db.fichas.insert({"numero":18,"nombre": "camarostaphylis discolor","habito":"arbusto o arbol","corteza_ramas":"glabros (lisos), con frecuencia glaucos y con tinción rojiza","peciolos":"glabros (lisos), con frecuencia glaucos y con tinción rojiza", "hojas":"7 a 16 cm de largo, 1.4 a 2.6(-3.6) cm de ancho, margen: plano o poco revoluto, con dientes o aserrado","haz":"glabro (liso)","enves":"glabros (lisos), con frecuencia glauco","flores":"blancas a blancas con tinción rosa, inflorescencia: con solo pelos glandulares o glabra"})
+
+db.fichas.insert({"numero":19,"nombre": "camarostaphylis discolor subsp. manantlanensis","habito":"arbusto o arbol","corteza_ramas":"pubescentes a densamente tomentosas, a veces con pelos glandulares","peciolos":"pubescentes a densamente tomentosas, a veces con pelos glandulares", "hojas":"8 a 20 cm de largo, 2.5 a 4.5 cm de ancho, margen: plano o poco revoluto, con dientes o aserrado","haz":"glabro o pubescente","enves":´pubescente a densamente tomentoso","flores":"blancas a verde pálido o amarillentas, a veces con tinción rosa, inflorescencia: pubescente a densamente tomentoso"})
+
+db.fichas.insert({"numero":20,"nombre": "camarostaphylis discolor subsp. rupestris","habito":"arbusto o arbol","corteza_ramas":"pubescentes","peciolos":"pubescentes", "hojas":"7 a 17 cm de largo, 1.5 a 4 cm de ancho, margen: plano, aserrado","haz":"glabro o poco pubescente","enves":"pubescente a densamente tomentoso","flores":"blancas a verde pálido o amarillentas, a veces con tinción rosa, inflorescencia: pubescente pero no glandular"})
+
+db.fichas.insert({"numero":21,"nombre": "camarostaphylis diversifolia","habito":"arbusto o arbol","corteza_ramas":"pubescentes","peciolos":"pubescentes", "hojas":"3 a 13 cm de largo, 1 a 4.2 cm de ancho, margen: plano a revoluto, aserrado","haz":"glabro o poco pubescente","enves":"casi glabro a densamente tomentoso","flores":"blancas a amarillentas, inflorescencia: pubescente, a veces con pelos glandulares"})
+
+db.fichas.insert({"numero":22,"nombre": "camarostaphylis glandulifera","habito":"arbusto","corteza_ramas":"con pelos glandulares","peciolos":"con pelos glandulares", "hojas":"1.8 a 7.5 cm de largo, 0.8 a 3.7 cm de ancho, margen: plano, aserrado","haz":"glabro o pubescente","enves":"densamente tomentoso","flores":"blanco-verdosas a rosas o con tintes rojizos, inflorescencia: con pelos glandulares"})
+
+db.fichas.insert({"numero":23,"nombre": "camarostaphylis glaucescens","habito":"arbusto o ábol","corteza_ramas":"cortamente pubescentes","peciolos":"cortamente pubescentes", "hojas":"deciduas, 3 a 12 cm de largo, 0.6 a 3.2 cm de ancho, margen: revoluto en hojas jóvenes, plano en hojas maduras, entero a poco ondulado a algo serrulado","haz":"glabro o poco pubescente","enves":"glabro o pubescente","flores":"rosa intenso a magenta o rojo, inflorescencia: casi glabra a pubescente"})
+
+db.fichas.insert({"numero":24,"nombre": "camarostaphylis hartwegiana","habito":"arbusto bajo, forma colonias","corteza_ramas":"con pelos glandulares","peciolos":"con pelos glandulares", "hojas":"3.7 a 7 cm de largo, 0.4 a 1 cm de ancho, margen: entero, muy revoluto","haz":"casi glabro o pubescente y glandular","enves":"pubescente y glandular","flores":"rosas, inflorescencia: con pelos glandulares"})
+
+db.fichas.insert({"numero":25,"nombre": "camarostaphylis laevis","habito":"arbusto","corteza_ramas":"glabras, glaucas, con tinte rosa o púrpura","peciolos":"glabras, glaucas, con tinte rosa o púrpura", "hojas":"6 a 8 cm de largo, 0.4 a 1 cm de ancho, margen: entero, revoluto","haz":"glabro","enves":"glabro, glauco","flores":"rosa intenso a magenta, inflorescencia: glabra, con tinte rosa o púrpura"})
+
+db.fichas.insert({"numero":26,"nombre": "camarostaphylis lanata","habito":"arbusto","corteza_ramas":"con pelos glandulares","peciolos":"con pelos glandulares", "hojas":"3.5 a 6.6 cm de largo, 0.4 a 2.2 cm de ancho, densamente agrupadas y ascendentes, margen: entero a poco ondulado, muy revoluto","haz":"pubescente con algunos pelos glandulares","enves":"pubescente a densamente tomentoso (casi glabro en Tamaulipas)","flores":"rojas en Tamaulipas; color no registrado para las de San Luis potosí, inflorescencia: con pelos glandulares"})
+
+db.fichas.insert({"numero":27,"nombre": "camarostaphylis longifolia","habito":"arbusto o árbol","corteza_ramas":"con pelos glandulares","peciolos":"con pelos glandulares", "hojas":"5 a 20 cm de largo, 1.1 a 7.5 cm de ancho, margen: plano o muy poco revoluto, con dientes o aserrado","haz":"pubescente, frecuentemente con pelos glandulares","enves":"pubescente a densamente tomentoso y glandular","flores":"blancas, verdosas, amarillentas o de color crema, inflorescencia: con pelos glandulares"})
+
+db.fichas.insert({"numero":28,"nombre": "camarostaphylis macvaughii","habito":"arbusto bajo, de menos de 30 cm","corteza_ramas":"glabros","peciolos":"glabros", "hojas":"1 a 4 cm de largo, 0.1 a 0.5 cm de ancho, rara vez más grandes; ápice agudo y con mucrón largo, margen: plano o muy poco revoluto, entero","haz":"glabro","enves":"glabro","flores":"rosas, inflorescencia: glabra o con pubescencia glandular muy corta"})
+
+db.fichas.insert({"numero":29,"nombre": "camarostaphylis mucronata","habito":"arbusto o árbol","corteza_ramas":"con pubescencia blanquecina","peciolos":"con pubescencia blanquecina", "hojas":"2.4 a 12 cm de largo, 0.7 a 3.3 cm de ancho; ápice redondeado, margen: plano o muy poco revoluto, entero, ondulado o algo serrulado","haz":"glabro o poco pubescente","enves":"con pubescencia blanquecina a gris pálida que a veces cae","flores":"de color blanco a rosa intenso, inflorescencia: con pubescencia blanquecina a gris pálida"})
+
+db.fichas.insert({"numero":30,"nombre": "camarostaphylis polifolia","habito":"arbusto o árbol","corteza_ramas":"glabras,"peciolos":"glabras", "hojas":"2 a 7.6 cm de largo, 0.4 a 1.4 cm de ancho, margen: entero o casi entero, plano o usualmente revoluto","haz":"glabro o espaciadamente pubescente","enves":"glabro a espaciadamente pubescente o densamente tomentoso","flores":"blancas o usualmente rosas, inflorescencia: pubescente o con pelos glandulares"})
+
+db.fichas.insert({"numero":31,"nombre": "camarostaphylis polifolia subsp. minor","habito":"arbusto","corteza_ramas":"glabras o casi glabras","peciolos":"glabras o casi glabras", "hojas":"2 a 6.6 cm de largo, 0.4 a 1.9 cm de ancho, ápice redondeado, margen: plano o muy poco revoluto, entero","haz":"glabro","enves":"glabro","flores":"rosas, inflorescencia: glabra o con pubescencia glandular muy corta"})
